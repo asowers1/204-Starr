@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49FBD46A1BAF05810047535B"
-               BuildableName = "204 starr.app"
+               BuildableName = "204 Starr.temp_caseinsensitive_rename.app"
                BlueprintName = "204 starr"
-               ReferencedContainer = "container:204 starr.xcodeproj">
+               ReferencedContainer = "container:204 Starr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49FBD4861BAF05810047535B"
-               BuildableName = "204 starrTests.xctest"
+               BuildableName = "204 Starr.temp_caseinsensitive_rename.xctest"
                BlueprintName = "204 starrTests"
-               ReferencedContainer = "container:204 starr.xcodeproj">
+               ReferencedContainer = "container:204 Starr.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49FBD4911BAF05810047535B"
-               BuildableName = "204 starrUITests.xctest"
+               BuildableName = "204 Starr.temp_caseinsensitive_rename.xctest"
                BlueprintName = "204 starrUITests"
-               ReferencedContainer = "container:204 starr.xcodeproj">
+               ReferencedContainer = "container:204 Starr.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49FBD46A1BAF05810047535B"
-            BuildableName = "204 starr.app"
+            BuildableName = "204 Starr.temp_caseinsensitive_rename.app"
             BlueprintName = "204 starr"
-            ReferencedContainer = "container:204 starr.xcodeproj">
+            ReferencedContainer = "container:204 Starr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49FBD46A1BAF05810047535B"
-            BuildableName = "204 starr.app"
+            BuildableName = "204 Starr.temp_caseinsensitive_rename.app"
             BlueprintName = "204 starr"
-            ReferencedContainer = "container:204 starr.xcodeproj">
+            ReferencedContainer = "container:204 Starr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49FBD46A1BAF05810047535B"
-            BuildableName = "204 starr.app"
+            BuildableName = "204 Starr.temp_caseinsensitive_rename.app"
             BlueprintName = "204 starr"
-            ReferencedContainer = "container:204 starr.xcodeproj">
+            ReferencedContainer = "container:204 Starr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -16,6 +16,7 @@
 		49FBD4811BAF05810047535B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FBD47F1BAF05810047535B /* LaunchScreen.storyboard */; };
 		49FBD48C1BAF05810047535B /* _04_starrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBD48B1BAF05810047535B /* _04_starrTests.m */; };
 		49FBD4971BAF05810047535B /* _04_starrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FBD4961BAF05810047535B /* _04_starrUITests.m */; };
+		BA0F454188DE886BC7658A04 /* libPods-204 starr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0345D8298EF2050C84F3EE1C /* libPods-204 starr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49FBD46B1BAF05810047535B /* 204 starr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "204 starr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0345D8298EF2050C84F3EE1C /* libPods-204 starr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-204 starr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBD46B1BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "204 Starr.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBD46F1BAF05810047535B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49FBD4711BAF05810047535B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49FBD4721BAF05810047535B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,12 +50,14 @@
 		49FBD47D1BAF05810047535B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49FBD4801BAF05810047535B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49FBD4821BAF05810047535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49FBD4871BAF05810047535B /* 204 starrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "204 starrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBD4871BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "204 Starr.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBD48B1BAF05810047535B /* _04_starrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _04_starrTests.m; sourceTree = "<group>"; };
 		49FBD48D1BAF05810047535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49FBD4921BAF05810047535B /* 204 starrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "204 starrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FBD4921BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "204 Starr.temp_caseinsensitive_rename.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FBD4961BAF05810047535B /* _04_starrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _04_starrUITests.m; sourceTree = "<group>"; };
 		49FBD4981BAF05810047535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B048841AD988FCB8CE73A3E6 /* Pods-204 starr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-204 starr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-204 starr/Pods-204 starr.debug.xcconfig"; sourceTree = "<group>"; };
+		CD19434B234DE000555198B8 /* Pods-204 starr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-204 starr.release.xcconfig"; path = "Pods/Target Support Files/Pods-204 starr/Pods-204 starr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0F454188DE886BC7658A04 /* libPods-204 starr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1146921DDE711A1A591C6168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B048841AD988FCB8CE73A3E6 /* Pods-204 starr.debug.xcconfig */,
+				CD19434B234DE000555198B8 /* Pods-204 starr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49FBD4621BAF05810047535B = {
 			isa = PBXGroup;
 			children = (
@@ -88,15 +102,17 @@
 				49FBD48A1BAF05810047535B /* 204 starrTests */,
 				49FBD4951BAF05810047535B /* 204 starrUITests */,
 				49FBD46C1BAF05810047535B /* Products */,
+				1146921DDE711A1A591C6168 /* Pods */,
+				AD1B84B440814EDBC57095F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		49FBD46C1BAF05810047535B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49FBD46B1BAF05810047535B /* 204 starr.app */,
-				49FBD4871BAF05810047535B /* 204 starrTests.xctest */,
-				49FBD4921BAF05810047535B /* 204 starrUITests.xctest */,
+				49FBD46B1BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.app */,
+				49FBD4871BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */,
+				49FBD4921BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +161,14 @@
 			path = "204 starrUITests";
 			sourceTree = "<group>";
 		};
+		AD1B84B440814EDBC57095F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0345D8298EF2050C84F3EE1C /* libPods-204 starr.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49FBD49B1BAF05820047535B /* Build configuration list for PBXNativeTarget "204 starr" */;
 			buildPhases = (
+				4447FCEA774FE95E82EEDF7C /* Check Pods Manifest.lock */,
 				49FBD4671BAF05810047535B /* Sources */,
 				49FBD4681BAF05810047535B /* Frameworks */,
 				49FBD4691BAF05810047535B /* Resources */,
+				A44E27F2AAD5EDC15BA11BAD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +188,7 @@
 			);
 			name = "204 starr";
 			productName = "204 starr";
-			productReference = 49FBD46B1BAF05810047535B /* 204 starr.app */;
+			productReference = 49FBD46B1BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 		49FBD4861BAF05810047535B /* 204 starrTests */ = {
@@ -180,7 +206,7 @@
 			);
 			name = "204 starrTests";
 			productName = "204 starrTests";
-			productReference = 49FBD4871BAF05810047535B /* 204 starrTests.xctest */;
+			productReference = 49FBD4871BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		49FBD4911BAF05810047535B /* 204 starrUITests */ = {
@@ -198,7 +224,7 @@
 			);
 			name = "204 starrUITests";
 			productName = "204 starrUITests";
-			productReference = 49FBD4921BAF05810047535B /* 204 starrUITests.xctest */;
+			productReference = 49FBD4921BAF05810047535B /* 204 Starr.temp_caseinsensitive_rename.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49FBD4661BAF05810047535B /* Build configuration list for PBXProject "204 starr" */;
+			buildConfigurationList = 49FBD4661BAF05810047535B /* Build configuration list for PBXProject "204 Starr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -269,6 +295,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4447FCEA774FE95E82EEDF7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A44E27F2AAD5EDC15BA11BAD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-204 starr/Pods-204 starr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49FBD4671BAF05810047535B /* Sources */ = {
@@ -415,23 +474,25 @@
 		};
 		49FBD49C1BAF05820047535B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B048841AD988FCB8CE73A3E6 /* Pods-204 starr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "204 starr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starr";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
 		49FBD49D1BAF05820047535B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD19434B234DE000555198B8 /* Pods-204 starr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "204 starr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starr";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -442,8 +503,8 @@
 				INFOPLIST_FILE = "204 starrTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starrTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/204 starr.app/204 starr";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/204 Starr.temp_caseinsensitive_rename.app/204 Starr.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -454,8 +515,8 @@
 				INFOPLIST_FILE = "204 starrTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starrTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/204 starr.app/204 starr";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/204 Starr.temp_caseinsensitive_rename.app/204 Starr.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -465,7 +526,7 @@
 				INFOPLIST_FILE = "204 starrUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starrUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = "204 starr";
 				USES_XCTRUNNER = YES;
 			};
@@ -477,7 +538,7 @@
 				INFOPLIST_FILE = "204 starrUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.-04-starrUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "204 Starr.temp_caseinsensitive_rename";
 				TEST_TARGET_NAME = "204 starr";
 				USES_XCTRUNNER = YES;
 			};
@@ -486,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49FBD4661BAF05810047535B /* Build configuration list for PBXProject "204 starr" */ = {
+		49FBD4661BAF05810047535B /* Build configuration list for PBXProject "204 Starr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49FBD4991BAF05820047535B /* Debug */,
@@ -502,6 +563,7 @@
 				49FBD49D1BAF05820047535B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49FBD49E1BAF05820047535B /* Build configuration list for PBXNativeTarget "204 starrTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +572,7 @@
 				49FBD4A01BAF05820047535B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49FBD4A11BAF05820047535B /* Build configuration list for PBXNativeTarget "204 starrUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +581,7 @@
 				49FBD4A31BAF05820047535B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
